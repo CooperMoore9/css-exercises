@@ -1,7 +1,22 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+
 }
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Gap worked but not row-gap */
+  gap: 8px;
+}
+
+
 
 .logo {
   font-size: 48px;
